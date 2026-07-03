@@ -1354,7 +1354,9 @@ section {
   }
 }
 
-/* Redes Flotantes */
+/*--------------------------------------------------------------
+# Floating Icons
+--------------------------------------------------------------*/
 
 .redes-flotantes {
   position: fixed;
@@ -1362,7 +1364,6 @@ section {
   top: 54%;
   z-index: 10;
 }
-
 
 .redes-flotantes img {
   float: right;
@@ -1407,6 +1408,12 @@ section {
   padding: 8px 10px;
   cursor: pointer;
   white-space: nowrap;
+}
+
+.lang-options span a{
+  
+  color: inherit;
+  text-decoration: none;
 }
 
 .lang-options span:hover {
